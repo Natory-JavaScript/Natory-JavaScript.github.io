@@ -39,6 +39,11 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
+    createPlatform(0,250,125,30);
+    createPlatform(350,250,1,10);
+    createPlatform(600,150,5,10)
+    createPlatform(480,300,40,15)
+    createPlatform(525,210,1,1)
 
 
     
@@ -49,6 +54,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
 
+    createCollectable("database",535,50)
 
     
     // TODO 3
@@ -58,6 +64,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
 
 
+    createCannon("right",740,1);
 
     
     /////////////////////////////////////////////////
